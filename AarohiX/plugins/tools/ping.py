@@ -11,7 +11,7 @@ from config import BANNED_USERS, PING_IMG_URL
 
 
 # Define the repo and close buttons
-repo_button = InlineKeyboardButton("• ʀᴇᴘᴏ •", callback_data="gib_source")
+
 close_button = InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="close")
 
 
@@ -30,7 +30,7 @@ async def ping_com(client, message: Message, _):
         _["ping_2"].format(resp, app.mention, UP, RAM, CPU, DISK, pytgping),
         reply_markup=InlineKeyboardMarkup(
             [
-                [repo_button]
+                
             ]
         ),
     )
