@@ -54,5 +54,5 @@ def private_help_panel(_):
 
 #----------------------------> NOTE <-----------------------------#
 """
-Written By Dil.
+Written By Harshu. 
 """
