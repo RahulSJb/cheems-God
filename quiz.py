@@ -1,7 +1,7 @@
 import json
 import telebot
 
-bot = telebot.TeleBot("7003380139:AAFMw7Oy61-cyAiZq8igynh-bvBIIdx3qRA")
+bot = telebot.TeleBot("6676043211:AAGNkf2FS086azR0iaN9UTlnbvuJQp6hBNI")
 
 def load_poll_data():
     try:
