@@ -82,7 +82,14 @@ async def start_pm(client, message: Message, _):
             searched_text = _["start_6"].format(
                 title, duration, views, published, channellink, channel, app.mention
             )
-            
+            key = InlineKeyboardMarkup( 
+                [ 
+                    [ 
+                        InlineKeyboardButton(text=_["S_B_8"], url=link), 
+                        InlineKeyboardButton(text=_["S_B_9"], url=config.SUPPORT_CHAT), 
+                    ], 
+                ] 
+            )
             await m.delete()
             await app.send_photo(
                 chat_id=message.chat.id,
